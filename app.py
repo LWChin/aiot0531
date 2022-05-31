@@ -9,7 +9,7 @@ app = Flask(__name__)
 myserver ="ec2-54-211-255-161.compute-1.amazonaws.com"
 myuser="ydigqtmkmszlex"
 mypassword="10c6b43229eb7558da318877a78eeba026bfb47c5b597c69baafb396bd01535e"
-mydb="ydigqtmkmszlex"
+mydb="d3rsqtjdhohdsq"
 
 
 @app.route("/data.json")
