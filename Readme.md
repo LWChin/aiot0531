@@ -37,7 +37,7 @@ mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 ```
 ### step 5: import postgredb (in db/postgre.db)
-    * 在HeidiSQL，檔案->載入postgre.db->執行
+* 在HeidiSQL，檔案->載入postgre.db->執行
 
 ### step 6: setting db in app.py
 
@@ -57,6 +57,8 @@ delete .git and git remote add origin master github.com/xxxxx
 
 
 ### step 9: Heroku deploy from github
+* 因為會連接到雲端資料庫，所以跑圖的時候要一些時間
+* 在VS code插入圖片的方法：先把圖片放進local資料夾裡，接著把圖片拉進readme，按下shift，放到想插入的位置。[]內可以輸入想叫的名字
 
 ### step 10: Complete
 
@@ -66,6 +68,13 @@ https://awinlab-aiot.herokuapp.com/
 Sample link 2: 
 https://aiot0529.herokuapp.com/
 
+My result:
+* 一開始成功畫出圖：
+![](Heroku.jpeg)
+* 按下SetRandom：
+![](Heroku_setRandom.jpeg)
+* 按下callAI：
+![](Heroku_callAI.jpeg)
 
 
 
