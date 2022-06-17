@@ -37,7 +37,7 @@ mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 ```
 ### step 5: import postgredb (in db/postgre.db)
-
+    * 在HeidiSQL，檔案->載入postgre.db->執行
 
 ### step 6: setting db in app.py
 
@@ -51,7 +51,7 @@ mydb="<fill-in-Heroku-Postgredb-DB-db>"
 ```
 ### step 7: testing locally by running python app.py
 
-### step 8: deploy to github (new private github repositoy)
+### step 8: deploy to github (new public github repositoy)
 
 delete .git and git remote add origin master github.com/xxxxx
 
